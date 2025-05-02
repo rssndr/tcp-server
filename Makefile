@@ -10,10 +10,10 @@ CFLAGS = -Wall -Wextra -O2
 LIBS = 
 
 # Target executable
-TARGET = server
+TARGET = web-server
 
 # Source files
-SRCS = server.c
+SRCS = web-server.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
@@ -36,3 +36,4 @@ clean:
 # Run the program
 run: $(TARGET)
 	./$(TARGET)
+
