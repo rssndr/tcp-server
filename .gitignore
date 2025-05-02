@@ -1,0 +1,13 @@
+# .gitignore
+
+# Object files
+*.o
+
+# Executables
+$(TARGET)
+a.out
+
+# Temporary files
+*.swp
+*~
+
