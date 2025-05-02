@@ -1,32 +1,68 @@
-# Compiled Object files
-*.slo
-*.lo
+# Build Artifacts and Executables
+bin/
+build/
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
-$(TARGET)
-a.out
+*.a
+*.so
+
+# Neovim-Specific Files
+# Swap files
+*.swp
+*.swo
+# Persistent undo files
+*.un~
+# Neovim session files
+Session.vim
+# Neovim shada (state) files
+.nvimlog
+.shada
+
+# Ubuntu/Linux System Files
+# Temporary files
+*~
+# Editor backup files
+*.bak
+# System-generated files
+.DS_Store  # In case of macOS-shared repos
+.Trash-*
+# Directory-specific cache
+.direnv/
+.envrc
+
+# Dependency Directories
+node_modules/
+vendor/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Logs and Temporary Files
+*.log
+*.log.*
+tmp/
+temp/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment and Configuration
+.env
+.local
+*.local
+*.cache
+.cache/
+
+# Git Itself
+.git/
+.gitignore
+.gitmodules
 
