@@ -10,10 +10,10 @@ CFLAGS = -Wall -Wextra -O2
 LIBS = 
 
 # Target executable
-TARGET = web-server
+TARGET = tcp-server
 
 # Source files
-SRCS = web-server.c
+SRCS = tcp-server.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
